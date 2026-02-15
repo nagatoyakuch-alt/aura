@@ -1,0 +1,28 @@
+.primary-btn{
+ padding:12px 25px;
+ border:none;
+ border-radius:12px;
+ background:var(--yellow);
+ color:#000;
+ cursor:pointer;
+ transition:0.3s;
+}
+
+.primary-btn:hover{
+ transform:translateY(-3px);
+}
+
+.auth-container{
+ width:90%;
+ max-width:400px;
+ margin:100px auto;
+ display:flex;
+ flex-direction:column;
+ gap:10px;
+}
+
+input{
+ padding:10px;
+ border-radius:8px;
+ border:none;
+}

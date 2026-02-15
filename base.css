@@ -1,0 +1,32 @@
+:root{
+ --dark:#0F172A;
+ --blue:#2563EB;
+ --neon:#22D3EE;
+ --yellow:#FACC15;
+ --light:#F8FAFC;
+}
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+ font-family:Arial, sans-serif;
+ background:var(--dark);
+ color:var(--light);
+}
+
+.navbar{
+ display:flex;
+ justify-content:space-between;
+ padding:20px;
+ background:rgba(255,255,255,0.05);
+}
+
+.hero{
+ height:80vh;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ text-align:center;
+ background:linear-gradient(135deg,var(--blue),var(--neon));
+}
