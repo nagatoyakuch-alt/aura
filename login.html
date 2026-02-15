@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - AURA</title>
+
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+</head>
+
+<body>
+
+<div class="auth-container">
+  <h2>Login</h2>
+  <input type="text" id="user" placeholder="Usuário">
+  <input type="password" id="pass" placeholder="Senha">
+  <button onclick="loginUser()">Entrar</button>
+
+  <h3>Cadastro</h3>
+  <input type="text" id="newUser" placeholder="Novo Usuário">
+  <input type="password" id="newPass" placeholder="Senha (mín 6)">
+  <button onclick="registerUser()">Cadastrar</button>
+</div>
+
+<script type="module" src="assets/js/auth.js"></script>
+</body>
+</html>
